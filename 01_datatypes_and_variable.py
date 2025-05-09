@@ -54,3 +54,25 @@ print("NoneType:", nothing)
 # 🔁 You can check type using `type()` function
 print("Type of 'pi':", type(pi))
 print("Type of 'fruits':", type(fruits))
+
+
+
+# ----------------------------------------
+# Variables in Python
+# ----------------------------------------
+
+# A variable stores data in memory
+age = 18               # integer
+name = "Eric"          # string
+height = 5.9           # float
+is_student = True      # boolean
+
+# Printing all variables
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Is Student:", is_student)
+
+# Variable reassignment
+age = 19
+print("Updated Age:", age)
